@@ -45,3 +45,7 @@ https://hub.docker.com/repository/docker/ninam001/event_manager-app/general
 ![LBYL](https://github.com/NikhilInampudi/eventmanager_nikhil/blob/7b99ca252b117828943f588676bb4cf08140c59f/Dockerhub.PNG "Docker Hub Account")
 
 ## Reflective summary
+
+This project provided a deep dive into API functionality and its layered architecture, including the service, schema, and model layers. Mastering these components was essential for addressing challenges like implementing username validation and ensuring uniqueness. Each layer required specific updates: the schema for validation, the service for duplicate checks, and the model for enforcing database constraints. This comprehensive approach resulted in a more resilient API.
+
+Additionally, I dedicated efforts to enhancing test coverage and configuring a GitHub Actions workflow. Achieving 90% test coverage proved to be a complex task due to pre-existing tests and necessitated a process of trial and error. Setting up GitHub Actions for DockerHub publishing also presented challenges, particularly with configuring SMTP credentials, which required extensive research. Overall, the project was both engaging and instructive, offering valuable insights into API development and CI/CD practices.
